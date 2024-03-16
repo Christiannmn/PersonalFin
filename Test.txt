@@ -1,4 +1,4 @@
-This document was created:Wed Mar  6 19:57:29 2024
+This document was created:Sat Mar 16 02:25:17 2024
 
 200,02.06.30,DKK,Netto
 500,06.30.09,DKK,LIDL

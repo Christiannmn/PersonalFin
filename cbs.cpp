@@ -26,6 +26,8 @@ class TransactionRecord{
     public:
         vector<Transaction> transrecord;
         
+        // Add bubble sort 
+        // Linked list
         void addnewTransaction(Transaction tempObject){
             transrecord.push_back(tempObject);
         }
@@ -39,7 +41,6 @@ class TransactionRecord{
 };
 
 
-
 class FileInterfacer{
 
     public:
@@ -49,7 +50,6 @@ class FileInterfacer{
 
         // Creates a file 
         void createFile(string tempFileName, vector<Transaction> tempRecord){
-            
             // Adds file type
             tempFileName += ".txt";
 
@@ -81,16 +81,17 @@ class FileInterfacer{
 };
 
 
-class FileSorter{
+class FileFilter{
 
     public:
         void checkifSorted(){
-            // Command that checks if it is sorted (by date??) 
+            
+        }
+        // We will do this today
+        void filterThis(vector<Transaction> tempRecord, string tempdateStart, string tempdateEnd){
+            
         }
 
-        void sortThis(){
-
-        }
   
 };
 
@@ -129,7 +130,6 @@ Transaction T2("500","06.30.09", "DKK", "LIDL");
 TransactionRecord record;
 FileInterfacer fileinterface;
 FileReader fileread;
-
 
 record.addnewTransaction(T1);
 record.addnewTransaction(T2);
